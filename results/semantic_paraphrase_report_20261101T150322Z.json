@@ -1,0 +1,29 @@
+{
+  "run_id": "20261101T150322Z",
+  "created_utc": "2026-11-01T15:04:02.320472+00:00",
+  "source_samples_csv": "/home/ubuntu/llm-text-watermarking/results/samples_20261101T070843Z.csv",
+  "source_model": "distilgpt2",
+  "paraphrase_model": "Vamsi/T5_Paraphrase_Paws",
+  "semantic_similarity_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cpu",
+  "n_source_samples": 4,
+  "watermark_threshold": 4.0,
+  "original_detection_rate": 0.5,
+  "paraphrase_detection_rate_all": 0.5,
+  "paraphrase_detection_rate_scorable": 0.5,
+  "paraphrase_insufficient_text_n": 0,
+  "mean_semantic_cosine_similarity": 0.9200994670391083,
+  "median_semantic_cosine_similarity": 0.9824167191982269,
+  "mean_lexical_jaccard": 0.8028425303477293,
+  "mean_original_words": 62.75,
+  "mean_paraphrase_words": 44.75,
+  "artifacts": {
+    "csv": "/home/ubuntu/llm-text-watermarking/results/semantic_paraphrase_20261101T150322Z.csv"
+  },
+  "caveats": [
+    "MiniLM cosine similarity is an automatic semantic-preservation proxy, not human evaluation.",
+    "PAWS-trained T5 paraphraser may fail or change meaning on some inputs; inspect examples.",
+    "Paraphrase detection rate is measured at the fixed z-score threshold 4.0.",
+    "This attack evaluates already-generated watermarked text; it does not regenerate control texts."
+  ]
+}

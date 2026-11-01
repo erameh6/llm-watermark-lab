@@ -1,0 +1,5 @@
+prompt_id,seed,label,is_watermarked,text,generated_token_count,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction
+0,11,0,0,"it creates new opportunities for people to learn and understand the world around them.
+""It's really encouraging that we are building a network of computers,"" said Thomas, who has developed AI software at Stanford University in California. ""There will be",48,40,48,27,0.5625,0.8660254037844387,0.19323811538561636,0
+0,11,1,1,"of social pressures that result in a decline in the ability to teach.
+The most recent report, conducted by Stanford University's Center for Advanced Artificial Intelligence and Human Resources (CAIRI), showed how technology has shaped this society: The research",48,39,48,41,0.8541666666666666,4.907477288111819,4.612766733179061e-07,1

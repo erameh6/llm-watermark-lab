@@ -1,0 +1,33 @@
+{
+  "run_id": "20261101T195203Z",
+  "created_utc": "2026-11-01T19:52:03.168668+00:00",
+  "source_csv": "/app/results/evaluation_samples_20261101T194701Z.csv",
+  "paraphrase_model": "Vamsi/T5_Paraphrase_Paws",
+  "similarity_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_id": "distilgpt2",
+  "n": 8,
+  "original_detection_rate": 1.0,
+  "paraphrase_detection_rate": 0.875,
+  "scorable_paraphrases": 8,
+  "mean_semantic_cosine_similarity": 0.9036781415343285,
+  "median_semantic_cosine_similarity": 0.9296069741249084,
+  "mean_lexical_jaccard": 0.7939510896115325,
+  "artifacts": {
+    "csv": "/app/results/platform_semantic_paraphrase_20261101T195203Z.csv",
+    "report_json": "/app/results/platform_semantic_paraphrase_report_20261101T195203Z.json"
+  },
+  "caveats": [
+    "Automatic cosine similarity is a proxy, not human semantic evaluation.",
+    "T5 paraphraser may change meaning or produce malformed outputs; inspect samples.",
+    "This is a small exploratory sample; increase prompt and seed counts."
+  ],
+  "original_detection_rate_95ci": [
+    0.6755924351161198,
+    1.0
+  ],
+  "paraphrase_detection_rate_95ci": [
+    0.5291118177871464,
+    0.9775825085499433
+  ],
+  "interval_method": "Wilson score 95% confidence intervals"
+}\n

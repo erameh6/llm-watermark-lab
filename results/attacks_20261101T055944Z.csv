@@ -1,0 +1,52 @@
+run_id,prompt_id,seed,max_new_tokens,attack,text,word_count,num_tokens_scored,green_fraction,z_score,p_value,prediction
+20261101T055944Z,0,11,32,none,of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.,29,28,0.5,3.0550504633038935,0.0011251132840428954,0
+20261101T055944Z,0,11,32,word_deletion,of social pressures and AI will continue to evolve through social media as it has able create more and better the last years.,23,21,0.3333333333333333,0.8819171036881969,0.1889108185500319,0
+20261101T055944Z,0,11,32,word_substitution,of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.,29,28,0.5,3.0550504633038935,0.0011251132840428954,0
+20261101T055944Z,0,11,32,lexical_paraphrase_proxy,of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.,29,28,0.5,3.0550504633038935,0.0011251132840428954,0
+20261101T055944Z,1,11,32,none,"investing in renewable energy instead.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Awards and honours in renewable energy are made in the",15,22,0.45454545454545453,2.215646837627989,0.013357849223589726,0
+20261101T055944Z,1,11,32,word_deletion,investing in renewable energy instead. Awards and honours in renewable energy are made in the,15,15,0.6666666666666666,3.7267799624996494,9.697081455185972e-05,0
+20261101T055944Z,1,11,32,word_substitution,investing in renewable energy instead. Awards and honours in renewable energy are made in the,15,15,0.6666666666666666,3.7267799624996494,9.697081455185972e-05,0
+20261101T055944Z,1,11,32,lexical_paraphrase_proxy,investing in renewable energy instead. Awards and honours in renewable energy are made in the,15,15,0.6666666666666666,3.7267799624996494,9.697081455185972e-05,0
+20261101T055944Z,0,11,64,none,"of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.
+
+
+
+A new study, which includes four new projects aiming to create artificial intelligence (AI) via artificial intelligence, shows that the potential for ""superior",52,60,0.55,5.366563145999495,4.012555633463782e-08,1
+20261101T055944Z,0,11,64,word_deletion,"of social pressures and AI will continue to evolve through social media as it has able create more and better the last years. A new study, which includes four new projects to create artificial intelligence (AI) via artificial shows that the potential for ""superior",44,47,0.5106382978723404,4.126544413225943,1.84127455401348e-05,1
+20261101T055944Z,0,11,64,word_substitution,"of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years. A new study, which includes four new projects aiming to create artificial intelligence (AI) via artificial intelligence, shows that the potential for ""superior",52,57,0.5789473684210527,5.735393346764044,4.864314812237361e-09,1
+20261101T055944Z,0,11,64,lexical_paraphrase_proxy,"of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years. A new study, which includes four new projects aiming to create artificial intelligence (AI) via artificial intelligence, shows that the potential for ""superior",52,57,0.5789473684210527,5.735393346764044,4.864314812237361e-09,1
+20261101T055944Z,1,11,64,none,"investing in renewable energy instead.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Awards and honours in renewable energy are made in the UK which will enable a range of projects from renewable energy projects funded by the Department of Energy and its Renewable Energy Action Committee.
+
+
+More than 350",42,53,0.4716981132075472,3.7273424528752774,9.675472383245907e-05,0
+20261101T055944Z,1,11,64,word_deletion,investing in renewable energy instead. Awards and honours in renewable energy are made in the UK will enable a range of projects from renewable energy projects funded by the Department of Energy and its Renewable Energy Action Committee. More than 350,41,43,0.5581395348837209,4.6663898035258065,1.5326896045060619e-06,1
+20261101T055944Z,1,11,64,word_substitution,investing in renewable energy instead. Awards and honours in renewable energy are made in the UK which will enable a range of projects from renewable energy projects funded by the Department of Energy and its Renewable Energy Action Committee. More than 350,42,44,0.5681818181818182,4.874174366759539,5.46322258477773e-07,1
+20261101T055944Z,1,11,64,lexical_paraphrase_proxy,investing in renewable energy instead. Awards and honours in renewable energy are made in the UK which will enable a range of projects from renewable energy projects funded by the Department of Energy and its Renewable Energy Action Committee. More than 350,42,44,0.5681818181818182,4.874174366759539,5.46322258477773e-07,1

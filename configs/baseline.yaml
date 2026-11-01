@@ -1,0 +1,24 @@
+project: llm-text-watermarking
+paper: "A Watermark for Large Language Models (Kirchenbauer et al., 2023)"
+model:
+  name: "distilgpt2"
+  revision: null
+  device: "cpu"
+  max_new_tokens: 160
+  do_sample: true
+  temperature: 1.0
+  top_p: 1.0
+watermark:
+  gamma: 0.25
+  delta: 2.0
+  seeding_scheme: "selfhash"
+  research_key_env: "WATERMARK_RESEARCH_KEY"
+detection:
+  z_threshold: 4.0
+  ignore_repeated_ngrams: true
+  normalizers: []
+evaluation:
+  seeds: [11, 22, 33]
+  prompt_count: 30
+  text_lengths_tokens: [50, 100, 200]
+  attacks: ["none", "word_deletion", "paraphrase"]

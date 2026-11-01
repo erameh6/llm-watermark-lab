@@ -1,0 +1,136 @@
+{
+  "run_id": "20261101T060224Z",
+  "created_utc": "2026-11-01T06:02:49.321756+00:00",
+  "model": "distilgpt2",
+  "device": "cpu",
+  "configuration": {
+    "gamma": 0.25,
+    "delta": 2.0,
+    "seeding_scheme": "ff-anchored_minhash_prf-4-True-1192593834",
+    "key_id": "0209deeaa8d6",
+    "z_threshold": 4.0,
+    "ignore_repeated_ngrams": true,
+    "generation_lengths": [
+      32,
+      64
+    ],
+    "seeds": [
+      11
+    ],
+    "prompt_count": 2,
+    "attacks": [
+      "none",
+      "word_deletion",
+      "word_substitution",
+      "lexical_paraphrase_proxy"
+    ]
+  },
+  "classification": {
+    "n": 8,
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc_zscore": 1.0,
+    "true_positive_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "true_negative": 4,
+    "false_positive": 0,
+    "false_negative": 4,
+    "true_positive": 0
+  },
+  "length_sensitivity": {
+    "32": {
+      "n": 4,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc_zscore": 1.0,
+      "true_positive_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative": 2,
+      "false_positive": 0,
+      "false_negative": 2,
+      "true_positive": 0
+    },
+    "64": {
+      "n": 4,
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc_zscore": 1.0,
+      "true_positive_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative": 2,
+      "false_positive": 0,
+      "false_negative": 2,
+      "true_positive": 0
+    }
+  },
+  "true_positive_rate_95ci": [
+    0.0,
+    0.0
+  ],
+  "false_positive_rate_95ci": [
+    0.0,
+    0.0
+  ],
+  "attack_robustness": {
+    "none": {
+      "n": 4,
+      "detection_rate": 0.0,
+      "detection_rate_95ci": [
+        0.0,
+        0.0
+      ],
+      "mean_z_score": 2.1582616176064913,
+      "mean_green_fraction": 0.4746883551231378
+    },
+    "word_deletion": {
+      "n": 4,
+      "detection_rate": 0.0,
+      "detection_rate_95ci": [
+        0.0,
+        0.0
+      ],
+      "mean_z_score": 2.7738893216161413,
+      "mean_green_fraction": 0.5336879432624114
+    },
+    "word_substitution": {
+      "n": 4,
+      "detection_rate": 0.0,
+      "detection_rate_95ci": [
+        0.0,
+        0.0
+      ],
+      "mean_z_score": 2.7963224926588315,
+      "mean_green_fraction": 0.5347143665158371
+    },
+    "lexical_paraphrase_proxy": {
+      "n": 4,
+      "detection_rate": 0.0,
+      "detection_rate_95ci": [
+        0.0,
+        0.0
+      ],
+      "mean_z_score": 2.879655825992165,
+      "mean_green_fraction": 0.5399226998491705
+    }
+  },
+  "quality_proxy": {
+    "control_mean_perplexity": 37.35515308380127,
+    "watermarked_mean_perplexity": 25.250012397766113,
+    "note": "Reference-model perplexity is only a proxy; compare matched prompts and lengths."
+  },
+  "artifacts": {
+    "samples_csv": "/home/ubuntu/llm-text-watermarking/results/samples_20261101T060224Z.csv",
+    "attacks_csv": "/home/ubuntu/llm-text-watermarking/results/attacks_20261101T060224Z.csv"
+  },
+  "caveats": [
+    "Small smoke-scale runs are not sufficient for strong scientific claims.",
+    "Lexical paraphrase proxy is not a semantic paraphrasing attack.",
+    "Detection is evidence for a matching watermark configuration, not proof of authorship."
+  ]
+}

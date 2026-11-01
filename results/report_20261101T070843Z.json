@@ -1,0 +1,154 @@
+{
+  "run_id": "20261101T070843Z",
+  "created_utc": "2026-11-01T07:41:54.888752+00:00",
+  "model": "distilgpt2",
+  "device": "cpu",
+  "configuration": {
+    "gamma": 0.25,
+    "delta": 2.0,
+    "seeding_scheme": "ff-anchored_minhash_prf-4-True-1192593834",
+    "key_id": "0209deeaa8d6",
+    "z_threshold": 4.0,
+    "ignore_repeated_ngrams": true,
+    "generation_lengths": [
+      96,
+      160
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "prompt_count": 20,
+    "attacks": [
+      "none",
+      "word_deletion",
+      "word_substitution",
+      "lexical_paraphrase_proxy"
+    ]
+  },
+  "classification": {
+    "n": 240,
+    "accuracy": 0.8916666666666667,
+    "precision": 1.0,
+    "recall": 0.7833333333333333,
+    "f1": 0.8785046728971962,
+    "roc_auc_zscore": 0.9988310929281122,
+    "true_positive_rate": 0.7833333333333333,
+    "false_positive_rate": 0.0,
+    "true_negative": 120,
+    "false_positive": 0,
+    "false_negative": 26,
+    "true_positive": 94,
+    "scored_only_roc_auc_zscore": 0.9988310929281122,
+    "scored_samples_n": 234,
+    "insufficient_text_n": 6
+  },
+  "length_sensitivity": {
+    "96": {
+      "n": 120,
+      "accuracy": 0.875,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "roc_auc_zscore": 0.9988310929281122,
+      "true_positive_rate": 0.75,
+      "false_positive_rate": 0.0,
+      "true_negative": 60,
+      "false_positive": 0,
+      "false_negative": 15,
+      "true_positive": 45,
+      "scored_samples_n": 117,
+      "insufficient_text_n": 3
+    },
+    "160": {
+      "n": 120,
+      "accuracy": 0.9083333333333333,
+      "precision": 1.0,
+      "recall": 0.8166666666666667,
+      "f1": 0.8990825688073395,
+      "roc_auc_zscore": 0.9988310929281122,
+      "true_positive_rate": 0.8166666666666667,
+      "false_positive_rate": 0.0,
+      "true_negative": 60,
+      "false_positive": 0,
+      "false_negative": 11,
+      "true_positive": 49,
+      "scored_samples_n": 117,
+      "insufficient_text_n": 3
+    }
+  },
+  "true_positive_rate_95ci": [
+    0.7083333333333334,
+    0.85
+  ],
+  "false_positive_rate_95ci": [
+    0.0,
+    0.0
+  ],
+  "attack_robustness": {
+    "none": {
+      "n": 120,
+      "scored_n": 116,
+      "insufficient_text_n": 4,
+      "detection_rate": 0.7833333333333333,
+      "detection_rate_95ci": [
+        0.7083333333333334,
+        0.85
+      ],
+      "mean_z_score": 6.593040168467433,
+      "mean_green_fraction": 0.5582685305068125
+    },
+    "word_deletion": {
+      "n": 120,
+      "scored_n": 116,
+      "insufficient_text_n": 4,
+      "detection_rate": 0.7083333333333334,
+      "detection_rate_95ci": [
+        0.6331249999999999,
+        0.7916666666666666
+      ],
+      "mean_z_score": 5.478793317340396,
+      "mean_green_fraction": 0.5184001984040905
+    },
+    "word_substitution": {
+      "n": 120,
+      "scored_n": 116,
+      "insufficient_text_n": 4,
+      "detection_rate": 0.7916666666666666,
+      "detection_rate_95ci": [
+        0.7166666666666667,
+        0.8583333333333333
+      ],
+      "mean_z_score": 6.4654140392614945,
+      "mean_green_fraction": 0.5565647393416442
+    },
+    "lexical_paraphrase_proxy": {
+      "n": 120,
+      "scored_n": 116,
+      "insufficient_text_n": 4,
+      "detection_rate": 0.7666666666666667,
+      "detection_rate_95ci": [
+        0.6916666666666667,
+        0.8335416666666655
+      ],
+      "mean_z_score": 6.387341892634081,
+      "mean_green_fraction": 0.5515456046627234
+    }
+  },
+  "quality_proxy": {
+    "control_mean_perplexity": null,
+    "watermarked_mean_perplexity": null,
+    "note": "Reference-model perplexity is only a proxy; compare matched prompts and lengths."
+  },
+  "artifacts": {
+    "samples_csv": "/home/ubuntu/llm-text-watermarking/results/samples_20261101T070843Z.csv",
+    "attacks_csv": "/home/ubuntu/llm-text-watermarking/results/attacks_20261101T070843Z.csv"
+  },
+  "caveats": [
+    "Small smoke-scale runs are not sufficient for strong scientific claims.",
+    "Lexical paraphrase proxy is not a semantic paraphrasing attack.",
+    "Detection is evidence for a matching watermark configuration, not proof of authorship.",
+    "Short generations with insufficient detector tokens are counted as undetected in operational rates; sentinel z-scores are excluded from ROC-AUC and score averages."
+  ]
+}

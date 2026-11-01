@@ -1,0 +1,33 @@
+prompt_id,seed,attack,text,word_count,num_tokens_scored,green_fraction,z_score,p_value,prediction
+0,11,none,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,11,word_deletion,of social pressures that in a decline in the ability to teach.,12,12,0.9166666666666666,2.886751345948129,0.001946208561389314,0
+0,11,word_substitution,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,11,lexical_paraphrase_proxy,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,22,none,of its role in promoting creative and intelligent programming.,9,9,0.7777777777777778,1.6666666666666667,0.0477903522728147,0
+0,22,word_deletion,of its role promoting creative and intelligent programming.,8,8,0.75,1.414213562373095,0.07864960352514258,0
+0,22,word_substitution,of its role in promoting creative and intelligent programming.,9,9,0.7777777777777778,1.6666666666666667,0.0477903522728147,0
+0,22,lexical_paraphrase_proxy,of its role in promoting creative and intelligent programming.,9,9,0.7777777777777778,1.6666666666666667,0.0477903522728147,0
+1,11,none,providing more power to people.,5,6,0.5,0.0,0.5,0
+1,11,word_deletion,providing more power to people.,5,6,0.5,0.0,0.5,0
+1,11,word_substitution,providing more power to people.,5,6,0.5,0.0,0.5,0
+1,11,lexical_paraphrase_proxy,providing more power to people.,5,6,0.5,0.0,0.5,0
+1,22,none,providing more energy.,3,4,0.5,0.0,0.5,0
+1,22,word_deletion,providing more energy.,3,4,0.5,0.0,0.5,0
+1,22,word_substitution,providing more energy.,3,4,0.5,0.0,0.5,0
+1,22,lexical_paraphrase_proxy,providing more energy.,3,4,0.5,0.0,0.5,0
+2,11,none,be implemented and maintained within a reasonable timeframe.,8,8,0.75,1.414213562373095,0.07864960352514258,0
+2,11,word_deletion,be implemented and within a timeframe.,6,6,0.6666666666666666,0.8164965809277261,0.2071080891212626,0
+2,11,word_substitution,be implemented and maintained within a reasonable timeframe.,8,8,0.75,1.414213562373095,0.07864960352514258,0
+2,11,lexical_paraphrase_proxy,be implemented and maintained within a reasonable timeframe.,8,8,0.75,1.414213562373095,0.07864960352514258,0
+2,22,none,"enable developers to maintain and improve their existing programs for good reasons,” he said.",14,17,0.7647058823529411,2.182820625326997,0.014524511080970285,0
+2,22,word_deletion,"enable developers to maintain and improve their existing programs for good reasons,” he said.",14,17,0.7647058823529411,2.182820625326997,0.014524511080970285,0
+2,22,word_substitution,"enable developers to maintain and improve their existing programs for good reasons,” he said.",14,17,0.7647058823529411,2.182820625326997,0.014524511080970285,0
+2,22,lexical_paraphrase_proxy,"enable developers to maintain and improve their existing programs for effective reasons,” he said.",14,17,0.7647058823529411,2.182820625326997,0.014524511080970285,0
+3,11,none,climate change.‬,2,4,0.5,0.0,0.5,0
+3,11,word_deletion,climate change.‬,2,4,0.5,0.0,0.5,0
+3,11,word_substitution,climate change.‬,2,4,0.5,0.0,0.5,0
+3,11,lexical_paraphrase_proxy,climate alter.‬,2,4,0.5,0.0,0.5,0
+3,22,none,"drought, floods, and wildfires",4,6,0.8333333333333334,1.6329931618554523,0.051235217429874684,0
+3,22,word_deletion,"drought, floods, and wildfires",4,6,0.8333333333333334,1.6329931618554523,0.051235217429874684,0
+3,22,word_substitution,"drought, floods, and wildfires",4,6,0.8333333333333334,1.6329931618554523,0.051235217429874684,0
+3,22,lexical_paraphrase_proxy,"drought, floods, and wildfires",4,6,0.8333333333333334,1.6329931618554523,0.051235217429874684,0

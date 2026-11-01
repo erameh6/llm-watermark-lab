@@ -1,0 +1,5 @@
+prompt_id,seed,attack,text,word_count,num_tokens_scored,green_fraction,z_score,p_value,prediction
+0,11,none,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,11,word_deletion,of social pressures that in a decline in the ability to teach.,12,12,0.9166666666666666,2.886751345948129,0.001946208561389314,0
+0,11,word_substitution,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,11,lexical_paraphrase_proxy,of social pressures that result in a decline in the ability to teach.,13,13,0.9230769230769231,3.05085107923876,0.0011409686266577242,0

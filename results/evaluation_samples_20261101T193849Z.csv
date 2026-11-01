@@ -1,0 +1,27 @@
+prompt_id,seed,label,is_watermarked,text,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction
+0,11,0,0,"it is transforming our lives. In particular, the technology has changed how we view ourselves. This is why it is so important that we recognize that human beings are smarter than us.
+
+
+
+
+The most obvious way to understand this is to understand the human brain. If we see a human being as intelligent, we must recognize that it is fundamentally different from the human. If we see a human being as human, we must recognize that human beings are more intelligent than us",83,74,34,0.4594594594594595,-0.6974858324629157,0.7572505986778588,0
+0,11,1,1,of social pressures that result in a decline in the ability to teach.,13,13,12,0.9230769230769231,3.05085107923876,0.0011409686266577242,0
+0,22,0,0,"it can teach us how to read and to remember. And this is a real thing. This is why the current generation of young people have the courage to do so.
+
+
+
+So how do we teach the people how to read?
+We teach them how to read and to remember. We teach them how to read. We teach them how to read. We teach them how to read. We teach them how to read. We teach them how to read.",80,53,25,0.4716981132075472,-0.4120816918460671,0.6598602263327749,0
+0,22,1,1,of its role in promoting creative and intelligent programming.,9,9,7,0.7777777777777778,1.6666666666666667,0.0477903522728147,0
+1,11,0,0,"eliminating electricity costs, increasing demand and reducing carbon pollution.",9,12,5,0.4166666666666667,-0.5773502691896258,0.7181485691746134,0
+1,11,1,1,providing more power to people.,5,6,3,0.5,0.0,0.5,0
+1,22,0,0,reducing energy use.,3,4,4,1.0,2.0,0.022750131948179195,0
+1,22,1,1,providing more energy.,3,4,2,0.5,0.0,0.5,0
+2,11,0,0,"be implemented and tested on a variety of operating systems, including Windows and Linux.",14,15,8,0.5333333333333333,0.2581988897471611,0.3981267073688196,0
+2,11,1,1,be implemented and maintained within a reasonable timeframe.,8,8,6,0.75,1.414213562373095,0.07864960352514258,0
+2,22,0,0,be used to maintain and maintain the integrity of the code.,11,11,8,0.7272727272727273,1.507556722888818,0.06583400801140711,0
+2,22,1,1,"enable developers to maintain and improve their existing programs for good reasons,” he said.",14,17,13,0.7647058823529411,2.182820625326997,0.014524511080970285,0
+3,11,0,0,"carbon dioxide emissions, including land use, climate change, and climate change.",11,13,4,0.3076923076923077,-1.386750490563073,0.917241070651265,0
+3,11,1,1,climate change.‬,2,4,2,0.5,0.0,0.5,0
+3,22,0,0,"food, water, and climate change.",5,7,3,0.42857142857142855,-0.3779644730092272,0.6472715069443633,0
+3,22,1,1,"drought, floods, and wildfires",4,6,5,0.8333333333333334,1.6329931618554523,0.051235217429874684,0

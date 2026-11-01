@@ -1,0 +1,8 @@
+prompt_id,seed,label,is_watermarked,text,generated_token_count,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction
+0,11,0,0,"it is transforming our lives. In particular, the technology has changed how we view ourselves. This is why it is so important that we recognize that human beings are smarter than us.
+
+
+
+
+The most obvious way to understand this",48,39,44,21,0.4772727272727273,-0.30151134457776363,0.6184876997235025,0
+0,11,1,1,of social pressures that result in a decline in the ability to teach.,48,13,16,15,0.9375,3.5,0.00023262907903552502,0

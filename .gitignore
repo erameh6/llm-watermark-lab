@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+data/raw/*
+data/processed/*
+results/*.log
+results/*.pid
+figures/.cache/
+notebooks/.ipynb_checkpoints/
+.cache/
+.huggingface/

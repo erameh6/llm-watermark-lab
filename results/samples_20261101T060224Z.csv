@@ -1,0 +1,69 @@
+run_id,prompt_id,seed,max_new_tokens,label,is_watermarked,text,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction,perplexity
+20261101T060224Z,0,11,32,control,0,"it is transforming school and society to be a playground.
+
+
+
+
+
+
+
+
+A study published recently by the Royal Academy of Sciences found that",22,25,5,0.2,-0.5773502691896257,0.7181485691746134,0,46.83562469482422
+20261101T060224Z,0,11,32,watermarked,1,"people are going to be less literate, or they'll be better off.""",12,13,8,0.6153846153846154,3.0424349222966556,0.001173362771940643,0,26.258365631103516
+20261101T060224Z,1,11,32,control,0,"making decisions that create economies that are sustainable and economically viable.
+
+
+
+
+
+
+
+A study published recently by the International Energy Agency of the American",23,26,6,0.23076923076923078,-0.22645540682891913,0.5895763807290357,0,43.14704132080078
+20261101T060224Z,1,11,32,watermarked,1,"making decisions that create a better future.
+
+
+
+
+
+
+
+
+
+
+
+A recent report by the Intergovernmental Panel on Climate Change (",18,23,7,0.30434782608695654,0.601929265428846,0.2736106113837036,0,33.550899505615234
+20261101T060224Z,0,11,64,control,0,"it is transforming school and society to be a playground.
+
+
+
+
+
+
+
+
+A study published recently by the Royal Academy of Sciences found that artificial intelligence has the potential to dramatically transform children‖",31,36,6,0.16666666666666666,-1.1547005383792515,0.8758934605050381,0,35.000911712646484
+20261101T060224Z,0,11,64,watermarked,1,"people are going to be less literate, or they'll be better off.""",12,13,8,0.6153846153846154,3.0424349222966556,0.001173362771940643,0,26.258365631103516
+20261101T060224Z,1,11,64,control,0,"making decisions that create economies that are sustainable and economically viable.
+
+
+
+
+
+
+
+A study published recently by the International Energy Agency of the American Society of Technology indicates a dramatic trend in energy efficiency.
+The rate of energy efficiency growth, a trend observed in the study, jumped from 5 percent last year",51,58,13,0.22413793103448276,-0.454858826147342,0.6753945969951923,0,24.437034606933594
+20261101T060224Z,1,11,64,watermarked,1,"making decisions that create a better future.
+
+
+
+
+
+
+
+
+
+
+
+A recent report by the Intergovernmental Panel on Climate Change (IPCC) indicates a dramatic trend in change in greenhouse gas emissions:
+Over the last five decades, the IPCC has determined that climate change is an important global",44,55,20,0.36363636363636365,1.9462473604038073,0.025812516697119266,0,14.932418823242188

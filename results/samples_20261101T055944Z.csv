@@ -1,0 +1,79 @@
+run_id,prompt_id,seed,max_new_tokens,label,is_watermarked,text,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction,perplexity
+20261101T055944Z,0,11,32,control,0,"it is transforming school and society to be a playground.
+
+
+
+
+
+
+
+
+A study published recently by the Royal Academy of Sciences found that",22,25,5,0.2,-0.5773502691896257,0.7181485691746134,0,46.83562469482422
+20261101T055944Z,0,11,32,watermarked,1,of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.,29,28,14,0.5,3.0550504633038935,0.0011251132840428954,0,34.59958267211914
+20261101T055944Z,1,11,32,control,0,"making decisions that create economies that are sustainable and economically viable.
+
+
+
+
+
+
+
+A study published recently by the International Energy Agency of the American",23,26,4,0.15384615384615385,-1.1322770341445956,0.8712410088754685,0,43.14704132080078
+20261101T055944Z,1,11,32,watermarked,1,"investing in renewable energy instead.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Awards and honours in renewable energy are made in the",15,22,10,0.45454545454545453,2.215646837627989,0.013357849223589726,0,64.72566986083984
+20261101T055944Z,0,11,64,control,0,"it is transforming school and society to be a playground.
+
+
+
+
+
+
+
+
+A study published recently by the Royal Academy of Sciences found that artificial intelligence has the potential to dramatically transform children‖",31,36,8,0.2222222222222222,-0.3849001794597505,0.6498443135315549,0,35.000911712646484
+20261101T055944Z,0,11,64,watermarked,1,"of social pressures and demands. AI will continue to evolve through social media as it has been able to create more and better outcomes in the last few years.
+
+
+
+A new study, which includes four new projects aiming to create artificial intelligence (AI) via artificial intelligence, shows that the potential for ""superior",52,60,33,0.55,5.366563145999495,4.012555633463782e-08,1,22.360584259033203
+20261101T055944Z,1,11,64,control,0,"making decisions that create economies that are sustainable and economically viable.
+
+
+
+
+
+
+
+A study published recently by the International Energy Agency of the American Society of Technology indicates a dramatic trend in energy efficiency.
+The rate of energy efficiency growth, a trend observed in the study, jumped from 5 percent last year",51,58,13,0.22413793103448276,-0.454858826147342,0.6753945969951923,0,24.437034606933594
+20261101T055944Z,1,11,64,watermarked,1,"investing in renewable energy instead.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Awards and honours in renewable energy are made in the UK which will enable a range of projects from renewable energy projects funded by the Department of Energy and its Renewable Energy Action Committee.
+
+
+More than 350",42,53,25,0.4716981132075472,3.7273424528752774,9.675472383245907e-05,0,30.76300048828125

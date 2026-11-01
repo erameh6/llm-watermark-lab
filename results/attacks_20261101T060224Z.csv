@@ -1,0 +1,42 @@
+run_id,prompt_id,seed,max_new_tokens,attack,text,word_count,num_tokens_scored,green_fraction,z_score,p_value,prediction
+20261101T060224Z,0,11,32,none,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,0,11,32,word_deletion,"people are going to less literate, or they'll be better off.""",11,12,0.5833333333333334,2.6666666666666665,0.0038303805675897365,0
+20261101T060224Z,0,11,32,word_substitution,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,0,11,32,lexical_paraphrase_proxy,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,1,11,32,none,"making decisions that create a better future.
+
+
+
+
+
+
+
+
+
+
+
+A recent report by the Intergovernmental Panel on Climate Change (",18,23,0.30434782608695654,0.601929265428846,0.2736106113837036,0
+20261101T060224Z,1,11,32,word_deletion,making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate (,17,16,0.5,2.3094010767585034,0.010460667668897007,0
+20261101T060224Z,1,11,32,word_substitution,making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate Change (,18,17,0.47058823529411764,2.100420126042015,0.017845950058402206,0
+20261101T060224Z,1,11,32,lexical_paraphrase_proxy,making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate Change (,18,17,0.47058823529411764,2.100420126042015,0.017845950058402206,0
+20261101T060224Z,0,11,64,none,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,0,11,64,word_deletion,"people are going to less literate, or they'll be better off.""",11,12,0.5833333333333334,2.6666666666666665,0.0038303805675897365,0
+20261101T060224Z,0,11,64,word_substitution,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,0,11,64,lexical_paraphrase_proxy,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
+20261101T060224Z,1,11,64,none,"making decisions that create a better future.
+
+
+
+
+
+
+
+
+
+
+
+A recent report by the Intergovernmental Panel on Climate Change (IPCC) indicates a dramatic trend in change in greenhouse gas emissions:
+Over the last five decades, the IPCC has determined that climate change is an important global",44,55,0.36363636363636365,1.9462473604038073,0.025812516697119266,0
+20261101T060224Z,1,11,64,word_deletion,"making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate (IPCC) indicates a dramatic trend in change in greenhouse gas emissions: Over the last five decades, the IPCC has determined that climate change is an important global",43,47,0.46808510638297873,3.452822876372728,0.0002773765668225625,0
+20261101T060224Z,1,11,64,word_substitution,"making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate Change (IPCC) indicates a dramatic trend in change in greenhouse gas emissions: Over the last five decades, the IPCC has determined that climate alter is an important global",44,48,0.4375,3.0,0.0013498980316300933,0
+20261101T060224Z,1,11,64,lexical_paraphrase_proxy,"making decisions that create a better future. A recent report by the Intergovernmental Panel on Climate Change (IPCC) indicates a dramatic trend in change in greenhouse gas emissions: Over the last five decades, the IPCC has determined that climate change is an important global",44,48,0.4583333333333333,3.3333333333333335,0.0004290603331968372,0

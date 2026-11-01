@@ -1,0 +1,12 @@
+run_id,prompt_id,seed,max_new_tokens,label,is_watermarked,text,word_count,num_tokens_scored,num_green_tokens,green_fraction,z_score,p_value,prediction,perplexity
+20261101T060200Z,0,11,32,control,0,"it is transforming school and society to be a playground.
+
+
+
+
+
+
+
+
+A study published recently by the Royal Academy of Sciences found that",22,25,5,0.2,-0.5773502691896257,0.7181485691746134,0,nan
+20261101T060200Z,0,11,32,watermarked,1,"people are going to be less literate, or they'll be better off.""",12,13,8,0.6153846153846154,3.0424349222966556,0.001173362771940643,0,nan

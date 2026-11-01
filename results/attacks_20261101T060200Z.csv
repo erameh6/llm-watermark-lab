@@ -1,0 +1,2 @@
+run_id,prompt_id,seed,max_new_tokens,attack,text,word_count,num_tokens_scored,green_fraction,z_score,p_value,prediction
+20261101T060200Z,0,11,32,none,"people are going to be less literate, or they'll be better off.""",12,13,0.6153846153846154,3.0424349222966556,0.001173362771940643,0
