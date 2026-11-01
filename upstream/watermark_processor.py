@@ -60,7 +60,11 @@ class WatermarkBase:
         if seeding_scheme == "simple_1":
             assert input_ids.shape[-1] >= 1, f"seeding_scheme={seeding_scheme} requires at least a 1 token prefix sequence to seed rng"
             prev_token = input_ids[-1].item()
-            self.rng.manual_seed(self.hash_key * prev_token)
+            # Keep the product inside PyTorch's signed 64-bit seed range.
+            # Codespaces generates a high-entropy 63-bit research key; multiplying
+            # it by a token ID can otherwise overflow before manual_seed is called.
+            seed = (self.hash_key * prev_token) % (2**63 - 1)
+            self.rng.manual_seed(seed)
         else:
             raise NotImplementedError(f"Unexpected seeding_scheme: {seeding_scheme}")
         return
